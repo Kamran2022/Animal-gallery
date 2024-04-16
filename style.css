@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3 em;
+    border-bottom: 2px solid burlywood;
+    border-right: 2px solid burlywood;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+
+
+}
+
+
+img{
+    width: 450px;
+    height: 300px;
+    margin: 5px;
+    transition: all 0.80s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
